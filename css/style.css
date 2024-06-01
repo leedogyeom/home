@@ -52,6 +52,14 @@ img:hover {
   height: 210px;
 }
 
+.c {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  padding: 30px;
+  color: white;
+}
+
 #tab-menu {
   width: 720px; 
   background : #a1c4fd;
