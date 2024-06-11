@@ -1,0 +1,141 @@
+* {
+  margin: 0; padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #58666e;
+  background-color: #f0f3f4;
+}
+
+img {
+  width: 280px;
+  height: 210px;
+  padding: 10px;
+}
+
+li { 
+  list-style: none; 
+}
+
+a { 
+  text-decoration: none; 
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 10px 5px;
+}
+
+h1 { 
+  font-size: 1.8em; 
+}
+
+#wrap {
+  width: 100%;
+  margin-top: 60px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 60px;
+  z-index: 2000;
+  background-color: #fff;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.05), 0 1px 0 rgba(0, 0, 0, 0.05);
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+p {
+  line-height: 2;
+}
+
+.nav-items {
+  margin-right: 20px;
+}
+
+.dr1 {
+  display: flex;
+  float: right;
+  position: absolute;
+  right: 0px;
+}
+
+.dr2 {
+  margin-left: 20px;
+}
+
+.nav-items > li {
+  display: flex;
+  float: right;
+}
+
+.nav-items > li > a {
+  line-height: 60px;
+  padding: 0 30px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.nav-items > li > a:hover {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+#content-wrap:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+aside {
+  position: fixed;
+  top: 60px;
+  bottom: 0;
+  width: 200px;
+  padding-top: 25px;
+  background-color: #333;
+}
+
+aside > ul {
+  width: 200px;
+}
+
+aside > ul > li > a {
+  display: block;
+  color: #fff;
+  padding: 10px 0 10px 20px;
+}
+
+aside > ul > li > a:hover {
+  background-color: #555;
+}
+
+aside > h1 {
+  padding: 20px 0 20px 20px;
+  color: #fff;
+}
+
+section {
+  float: right;
+  margin-left: 200px;
+}
+
+article {
+  margin: 10px;
+  padding: 25px;
+  background-color: white;
+}
+
+@media (max-width: 900px) {
+  aside {
+  position: fixed;
+  top: 60px;
+  bottom: 0;
+  width: 160px;
+  padding-top: 25px;
+  background-color: #333;
+  }
+}
