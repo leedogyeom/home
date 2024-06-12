@@ -34,7 +34,7 @@ a {
 article {
 	height: 65vh;
 	overflow: scroll;
-	width: calc(100%/3);
+	width: calc(100%/2);
 	display: flex;
 	flex-direction: column;
 }
@@ -62,9 +62,23 @@ p {
 	color: red;
 }
 
+.e2 {
+	display: flex;
+	flex-direction: row;
+}
+
 .d1 {
 	background-color: black;
 	color: white;
+	width: 100vw;
+	height: 25vh;
+	overflow: scroll;
+	display: flex;
+	flex-direction: row;
+}
+
+.e3 {
+	margin-top: 30px;
 }
 
 nav {
@@ -82,48 +96,12 @@ img {
 	padding: 25px;
 }
 
-.e1 {
-	display: flex;
-	height: 20vh;
-}
+
 
 ul {
 	display: flex;
 	flex-direction: row;
 	list-style: none;
-}
-
-.e1 {
-    display: flex;
-    width: 100vw;
-    height: 25vh;
-}
-
-.e1 > li {
-    flex: 1;
-    position: relative;
-    transition: all 0.3s;
-}
-
-.e1 > li:hover {
-    flex: 3;
-}
-
-.e1 > li img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.b {
-	filter: grayscale(1);
-}
-
-.b:hover {
-	filter: grayscale(0);
 }
 
 h2 {
