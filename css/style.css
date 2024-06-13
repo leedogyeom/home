@@ -110,7 +110,7 @@ p {
 
 @media (max-width: 900px) {
   body {
-    transform: scale(0.5);
+    transform: scale(0.4);
     background: lightpink;
   }
 }
