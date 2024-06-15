@@ -26,15 +26,22 @@ a {
 	color: white;
 }
 
-div {
+div:not(.rr) {
+	display: flex;
+	flex-direction: column;
+}
+
+.rr {
 	display: flex;
 	flex-direction: row;
 }
 
 article {
-	width: calc(100%/3);
-	height: 65vh;
+	width: 75vw;
+	height: 30vh;
 	overflow: scroll;
+	display: flex;
+	flex-direction: row;
 }
 
 section {
@@ -43,18 +50,21 @@ section {
 }
 
 p:not(.a) {
-	max-width: 15.5vw;
+	width: 20vw;
 	padding: 25px;
 	margin-left: 1vw;
 	background-color: white;
 	margin-top: 40px;
+	margin-right: 40px;
 	border-radius: 6px;
 	margin-bottom: 80px;
 	box-shadow: 5px 5px 5px 5px #454545;
+	line-height: 1.6;
 }
 
 .div {
-	height: 25vh;
+	width: 25vw;
+	height: 90vh;
 	overflow: scroll;
 	display: flex;
 	flex-direction: row;
@@ -82,7 +92,7 @@ p:not(.a) {
 }
 
 img {
-	width: 9vw;
+	width: 12vw;
 	height: auto;
 	padding: 10px;
 }
@@ -95,3 +105,4 @@ h2 {
 .bbb {
 	padding-left: 180px;
 }
+
